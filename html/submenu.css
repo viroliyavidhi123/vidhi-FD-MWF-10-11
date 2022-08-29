@@ -1,0 +1,57 @@
+*
+{
+	margin: 0px;
+	padding: 0px;
+}
+.menu
+{
+	height: 80px;
+	width: 100%;
+	background-color: black;
+	display: flex;
+	text-align: center;
+}
+
+.menu a
+{
+	padding: 20px;
+	text-decoration: none;
+	color: pink;
+	font-size: 30px;
+
+
+}
+.submenu
+{
+	border: none;
+	float: left;
+	padding: 20px;
+}
+.submenu .btn
+{
+	background-color: inherit;
+
+}
+.btn
+{
+	border: none;
+	color: white;
+	size: 30px;
+
+
+}
+.submenu:hover .submenu-content
+{
+	display: block;
+}
+.submenu-content 
+{
+	position: absolute;
+	left: 0px;
+	display: none;
+	background-color: darkred;
+	height: 50px;
+	width: 100%;
+	float: left;
+
+}

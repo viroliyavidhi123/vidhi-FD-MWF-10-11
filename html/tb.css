@@ -1,0 +1,23 @@
+*
+{
+	height: 50px;
+	width: 50px;
+	background: peachpuff;
+	border-radius: 25%;
+	animation-name: zxy;
+	animation-duration: 3s;
+	animation-iteration-count: inherit;
+	position: relative;
+	font-size: 39px;
+}
+@keyframes zxy{
+	0%{background: cyan; left: 0px; top: 0px;}
+	25%{background: peachpuff; left: 100px; top: 0px;}
+	50%{background: pink; left:200px ;top:0px;}
+
+	75%{background: red;left: 100px;top: 0px;}
+	100%{background: gold;left: 0px; top: 0px;}
+	
+
+	
+}

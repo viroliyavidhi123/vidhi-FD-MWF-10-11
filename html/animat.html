@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title></title>
+	<style type="text/css">
+		#main
+		{
+			height: 600px;
+			width: 100%;
+
+		}
+		.top
+		{
+
+			display: flex;
+			margin-left: 70px;
+			column-gap: 70px;
+			height: 200px;
+			width: 200px;
+			position: relative;
+
+		}
+		/*#main .bottom
+		{
+			display: flex;
+			padding-top: 100px;
+			margin-left: 100px;
+
+		}*/
+		img
+		{
+			height: 200px;
+			width: 200px;
+			border: 1px solid black;
+			/*position: relative;*/
+			
+			
+		}
+		input
+		{
+			width: 200px;
+			height: 40px;
+			background-color: black;
+			color: white;
+			padding: 5px 40px;
+			font-size: 20px;
+			opacity: 0;
+			position: absolute;
+			left: 0;
+			bottom: -50px;
+			transition: 1s;
+		}
+		 .top:hover input
+		{
+			opacity: 1;
+			bottom: 0px;
+			
+		}
+		
+	</style>
+</head>
+<body>
+	<div id="main">
+		<div class="top">
+			<div><img src="1.png"><input type="button" name="" value="Add To Cart"></div>
+			
+			<div><img src="2.png"><input type="button" name="" value="Add To Cart"></div>
+			
+			<div><img src="3.png"><input type="button" name="" value="Add To Cart"></div>
+			
+			<div><img src="4.png"><input type="button" name="" value="Add To Cart"></div>
+			
+		</div>
+		<!-- <div class="bottom">
+			<div><img src="5.png"><input type="button" name="" value="Add To Cart"></div>
+			
+			<div><img src="6.png"><input type="button" name="" value="Add To Cart"></div>
+			
+			<div><img src="7.png"><input type="button" name="" value="Add To Cart"></div>
+			
+			<div><img src="8.png"><input type="button" name="" value="Add To Cart"></div>
+			
+			
+		</div> -->
+	</div>
+</body>
+</html>

@@ -1,0 +1,76 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+
+
+header
+{
+	display: flex;
+	position: relative;
+	height: 80px;
+	
+
+}
+header::before
+{
+	/*content: "";*/
+	height: 100%;
+	width: 100%;
+	position: absolute;
+	background: darkblue;
+	opacity: 0.4;
+
+}
+ul
+{
+	display: flex;
+	list-style: none;
+}
+li
+{
+	padding: 30px;
+}
+img
+{
+	height: 80px;
+	width: 100px;
+}
+h1
+{
+	text-align: center;
+	padding: 20px;
+	font-size: 50px;
+}
+p
+{
+	text-align: center;
+	margin-left: 200px;
+	margin-right: 200px;
+	b
+}
+section
+{
+	height: 100%;
+	width: 100%;
+	position: absolute;
+	
+	position: absolute;
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+	background-attachment: fixed;
+
+	
+
+
+}
+button
+{
+	margin-top: 50px;
+	margin-right: 400px;
+	margin-left: 500px;
+}
+
+	
+	
+

@@ -1,0 +1,99 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+header
+{
+	position: relative;
+	height: 150px;
+	display: flex;
+	
+}
+header::before
+{
+	content: "";
+	position: absolute;
+	background-image: url(hedimg.jfif);
+	background-position: center;
+	background-repeat: no-repeat;
+	height: 100%;
+	width: 100%;
+	opacity: 0.1;
+	z-index: -1;
+	background-size: 100%;
+}
+div
+{
+	margin: 1px;
+}
+a
+{
+	text-decoration: none;
+	font-size: 20px;
+	text-align: center;
+}
+a:hover
+{
+	background-color: pink;
+	color: blue;
+	padding: 20px 20px;
+	border-radius: 5PX;
+	
+
+}
+
+
+ul
+{
+	display: flex;
+	align-items: center;
+}
+li
+{
+	list-style: none;
+	padding: 30px;
+}
+img
+{
+	height: 150px;
+	border-radius: 1px solid black;
+}
+section
+{
+	display: flex;
+	flex-direction: column;
+	position: relative;
+	align-items: center;
+	height: 600px;
+	width: 100%;
+
+}
+section:before
+{
+	content: "";
+	position: absolute;	
+	background-image: url(img.jpg);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: 100% 100%;
+	z-index: -1;
+	opacity: 0.3;
+}
+h1
+{
+	font-size: 50px;
+	margin: 100px;
+	text-align: center;
+}
+p
+{
+	text-align: center;
+
+	}
+button
+{
+	cursor: pointer;
+	background-color: pink;
+	padding: 20px 40px;
+	margin: 30px;
+}
