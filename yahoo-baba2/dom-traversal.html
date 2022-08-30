@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html id="main">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title></title>
+	<style type="text/css">
+		#outer{
+			height: 200px;
+			width: 80%;
+			background: yellow;
+			margin-left: 120px;
+		}
+		#inner{
+			height: 150px;
+			width: 70%;
+			background: hotpink;
+			margin-left: 100px;
+		}
+		div{
+			margin-top: 25px;
+			display: flex;
+			height: 50px;
+			width: 10%;
+			background: white;
+			border: 1px solid black;
+			column-gap: 10px;
+			margin-left: 25px;
+		}
+	</style>
+</head>
+<body>
+	<div id="outer">
+		<h2>outer</h2>
+		<div id="inner">
+			<h2>inner</h2>
+			<div>A</div>
+			<div>B</div>
+			<div id="child-c">C</div>
+			<div>D</div>
+			<div>E</div>
+		</div>
+	</div>
+
+</body>
+	<script>
+		document.getElementById('child-c').parentNode.style.background='red'
+		// var a =document.getElementById('child-c').parentElement;
+		var a =document.getElementById('main').parentNode;
+		console.log(a)
+
+
+	</script>
+</html>

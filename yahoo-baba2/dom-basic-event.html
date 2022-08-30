@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title></title>
+</head>
+<body>
+	<h2 id="event">This is Event</h2>
+	<button onclick="abc()">Click Here</button>
+<!-- ------------------------------------------------------------------------------------------- -->
+
+	<h1 id="list">Event Listener</h1>
+<!-- ------------------------------------------------------------------------------------------- -->
+<div id="outer" style="width:500px;height: 500px;margin: 0 auto; background: lightsalmon;">
+<div id="inner" style="width:300px;height: 300px;margin: 100px auto; background: mediumorchid;"></div>
+</div>
+
+</body>
+	<script>
+
+		function abc() {
+			document.getElementById('event').style.background='green'
+		}
+// ----------------------------------------------------------------------------------------
+
+			document.getElementById('list').addEventListener('click',xyz);
+			document.getElementById('list').addEventListener('mouseenter',function(){
+			document.getElementById('list').style.color='red'
+			});
+		function xyz() {
+			document.getElementById('list').style.background='green'
+	}
+		
+// -------------------------------------------------------------------------------------------
+	document.querySelector("#inner").addEventListener('click',function () {
+		alert('inner div');
+	},false)
+	document.querySelector("#outer").addEventListener('click',function () {
+		alert('outer div');
+	},false)
+// --------------------------------------------------------------------------------------------
+
+
+	</script>
+</html>

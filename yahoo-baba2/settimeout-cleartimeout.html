@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title></title>
+</head>
+<body>
+	<div id="test" style="width:150px;height: 150px;background: red;"></div>
+	<button onclick="stop()">Stop</button>
+</body>
+<script>
+		
+		var id=setTimeout(anim,5000)
+
+		function anim() {
+			
+			var target=document.getElementById('test')
+			target.style.width='500px'
+		}
+		function stop(){
+			clearTimeout(id)
+		}
+</script>
+</html>

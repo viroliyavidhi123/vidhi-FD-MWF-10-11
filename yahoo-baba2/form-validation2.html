@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title></title>
+	<style type="text/css">
+		div{
+			height: 100px;
+			width: 200px;
+			border: 1px solid black;
+			padding: 20px;
+
+		}
+	</style>
+</head>
+<body>
+	<input type="" name="" id="my"><br>
+	<button onclick="abc()">Click Here</button>
+
+	<div id="text"></div>
+
+</body>
+	<script>
+		function abc() {
+			var b=document.getElementById('my').value;
+			var c;
+			if(b<1 || b>10 || isNaN(b)){
+				c="input is not valid"
+			}
+			else{c="input is valid"}
+				document.getElementById("text").innerHTML=c
+		}
+	</script>
+</html>

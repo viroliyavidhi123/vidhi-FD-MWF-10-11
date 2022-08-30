@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title></title>
+</head>
+<body>
+	<form>
+		Username<input type="text" name="" required><br>
+		Password<input type="password" name="" id="my"><br>
+		<input type="checkbox" name="" onclick="abc()">Show Password
+		<input type="submit" name="">
+	</form>
+
+</body>
+	<script>
+		function abc(){
+			var a=document.getElementById('my')
+			if(a.type==="password")
+				{a.type="text"}
+			else{a.type="password"}
+		}
+	</script>
+</html>

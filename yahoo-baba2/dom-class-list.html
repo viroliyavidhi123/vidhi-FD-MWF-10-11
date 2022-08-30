@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title></title>
+	<style type="text/css">
+		#header{
+			height: 100px;
+			widows: 100%;
+			text-align: center;
+			font-size: 50px;
+		}
+		.abc{
+			background: purple;
+		}
+		.xyz{
+			background: green;
+		}
+		
+	</style>
+</head>
+<body>
+	<div id="header" class="abc">This is class list</div>
+
+</body>
+	<script>
+		document.getElementById('header').addEventListener('click',abc);
+		function abc() {
+			document.getElementById('header').classList.add("xyz","efg");
+			var a=document.getElementById('header').classList;
+			console.log(a)
+
+		}
+			
+		
+	</script>
+</html>

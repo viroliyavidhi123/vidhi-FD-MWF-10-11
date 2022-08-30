@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title></title>
+</head>
+<body>
+
+</body>
+	<script>
+		var ary=[11,4,9,16]
+
+		var b= ary.map(test)
+		document.write(b+"<br>")
+
+		function test(x) {
+			return x*10
+		}
+
+
+
+
+		var c=[
+		{fristname:"ram",lastname:"kumar"},
+
+		{fristname:"bhavik",lastname:"patel"},
+
+		{fristname:"chirag",lastname:"halpara"},
+		]
+		var d=c.map(change)
+		document.write(d+"<br>")
+
+		function change(e){
+			return e.fristname + " "+e.lastname
+		}
+
+
+	</script>
+</html>

@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title></title>
+</head>
+<body>
+	<h1 id="my">Hello Everyone</h1>
+	<p id="par" class="abcd" style="border: 1px solid black;">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+	tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+	quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+	consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+	cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+	proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+
+</body>
+	<script>
+		var element;
+		element=document.getElementById('my').innerText
+		document.write(element+"<br>")
+
+
+		var element;
+		element=document.getElementById('par').innerHTML
+		document.write(element+"<br>")
+
+		var element;
+		element=document.getElementById('my').getAttribute("id")
+		console.log(element)
+
+		var element;
+		element=document.getElementById('par').getAttribute("style")
+		console.log(element)
+
+		var element;
+		element=document.getElementById('my').innerText="wow"
+		element=document.getElementById('my').innerHTML
+		console.log(element)
+
+	</script>
+</html>

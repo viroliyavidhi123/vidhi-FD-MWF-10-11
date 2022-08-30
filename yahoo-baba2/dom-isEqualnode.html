@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title></title>
+</head>
+<body>
+	<ul id="list-a">
+		<li>orange</li>
+		<li>apple</li>
+		<li>banana</li>
+		<li>grapes</li>
+	</ul>
+	<ul id="list-b">
+		<li>Carrot</li>
+		<li>orange</li>
+		<li>pineapple</li>
+		<li>guava</li>
+	</ul>
+
+
+</body>
+	<script>
+		var target1=document.getElementById('list-a').firstElementChild;
+
+		var target2=document.getElementById('list-b').children[1];
+
+		var equal=target1.isEqualNode(target2)
+	
+		console.log(equal)
+</script>
+
+</html>
