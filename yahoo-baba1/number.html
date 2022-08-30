@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>number</title>
+</head>
+<body>
+
+</body>
+<script>
+    var a="100.33"
+    var num=Number(a)
+    document.write(num+"<br>")
+
+    var a="100 "
+    var num=parseInt(a)
+    document.write(num+"<br>")
+
+    var a="100.9980 "
+    var num=parseFloat(a)
+    document.write(num+"<br>")
+
+    var a="abd"
+    var num=isFinite(a)
+    document.write(num+"<br>")
+
+    var a=+100 
+    var num=Number.isInteger(a)
+    document.write(num+"<br>")
+
+    var a=100.90690
+    var num=a.toFixed(3)
+    document.write(num+"<br>")
+
+    var a=100.90690
+    var num=a.toprecision(2)
+    document.write(num+"<br>")
+    
+</script>
+</html>

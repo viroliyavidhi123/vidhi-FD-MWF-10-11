@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>stringmethods</title>
+</head>
+<body>
+
+</body>
+<script>
+    //length//
+    // var a="abcdefghijklmnopqrstuwxyz"
+    // var b= a.length
+    // document.write(b)
+
+    //lovercase//
+    // var a="abcdefghijklmnopqrstuwxyz"
+    // var b= a.toUpperCase()
+    // document.write(b)
+
+    //include
+    // var a="abcdefghijklmnopqrstuwxyz"
+    // var b= a.includes("a")
+    // document.write(b)
+
+    //start-end-with
+    // var a="abc defghijkl mnopqrs tuwxyz"
+    // var b= a.startsWith("a")
+    // document.write(b)
+    
+    //search()
+    var a="abc xyz pqr vidhi"
+    var b= a.search('b')
+    document.write(b+"<br>")
+
+    //match()
+    var a="abc xyz pqr abc vidhi"
+    var b= a.match(/abc/g)
+    document.write(b+"<br>")
+
+    //replace
+    var a="abc xyz pqr vidhi"
+    var b= a.replace('abc','php')
+    document.write(b+"<br>")
+
+    //trim
+    // var a="       abc        "
+    // var b=a.trim();
+    // alert(b);
+
+    //charAt
+    var a="abc xyz pqr vidhi"
+    var b= a.charAt(3)
+    document.write(b+"<br>")
+
+    //concate
+    var a="abc xyz "
+    var c="pqr vidhi"
+    var b= a.concat(c)
+    document.write(b+"<br>")
+
+    //split
+    var a="abc xyz pqr vidhi"
+    var b= a.split("  ")
+    document.write(b+"<br>")
+
+    //repeat
+    var a="abc xyz pqr vidhi"
+    var b= a.repeat( 2 )
+    document.write(b+"<br>")
+    
+    //slice
+    var a="abc xyz pqr vidhi"
+    var b= a.slice(1)
+    document.write(b+"<br>")
+
+    //substr
+    var a="abc xyz pqr vidhi"
+    var b= a.substr(5,10)
+    document.write(b+"<br>")
+
+    //substring
+    var a="abc xyz pqr vidhi"
+    var b= a.substring(5,10)
+    document.write(b+"<br>")
+
+    //tostring
+    //substr
+    var a=10
+    var b= a.toString()
+    document.write(b+"<br>")
+</script>
+</html>
