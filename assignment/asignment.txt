@@ -1,0 +1,97 @@
+Que 1. Are the HTML tag and element are same thing?
+Ans.   NO, HTML tag and element are not the same thing.
+
+Que 2. What are the tags and attributes in HTML?
+Ans.  Content which are written in angle brackets ("<__>") is called tags.
+      Content which are written inside the tags is called attributes.
+      Ex. of tags("<meta></meta>")
+      Ex. of attribute("<meta class="xyz"></meta>")
+
+Que 3. What are void element in HTML?
+And.   The element which we do not need to close is called an void element.
+       Ex. of void element("<img>,<br>,<hr>,<meta>")
+
+Que 4. What are HTML Entities? 
+Ans.    If you use the less than (<) or greater than (>) signs in your text, the browser might mix them with tags. 
+        Character entities are used to display reserved characters in HTML. A character entity looks like this: 
+        To display a less than sign (<) we must write: &lt; or &#60; 
+
+Que 5. What are different types of lists in HTML? 
+Ans.   There are 3 types of lists. They are. 
+       1. Ordered List 
+       2. Unordered List 
+       3. Description List
+
+Que 6. What is the ‘class’ attribute in HTML?
+Ans.   The class is an attribute which specifies one or more class names for an HTML element.
+       The class attribute can be used on any HTML element.The class name can be used by CSS 
+       and JavaScript to perform certain tasks for elements with the specified class name.
+
+Que 7. What is the difference between the ‘id’ attribute and the ‘class’ attribute of HTML elements?
+Ans.   Each HTML element can have an id and a class attribute, however, the differences are: The id’s
+       value must be unique in the whole document. As for the class, the value can be the same for multiple 
+       elements. The id’s value must not contain whitespace (spaces, tabs, etc.), while the class attribute allows space-separated values.
+
+Que 8. What are the various formatting tags in HTML?
+Ans.   Various formating tags in the HTML are "<b> , <i> , <em> , <strong> , <sub> , <sup> , <small> , <span> , <mark> , <del>".
+
+Que 9.  How is Cell Padding different from Cell Spacing? 
+Ans.   Cellpadding. It is associated with a single cell. It helps control the white space that is present between the border of the cell and the contents within the cell.
+
+Que 10. How can we club two or more rows or columns into a single row or column in an HTML table?
+Ans.    
+
+Que 11. What is the difference between a block-level element and an inline element?
+Ans.    A block-level element is an HTML element that begins a new line.
+        Inline Elements. It can begin within a line. It does not start a new line. Its width only extends as far as it is.
+
+Que 12. How to create a Hyperlink in HTML? 
+Ans.    Firstly, we have to type the Html code in any text editor or open the existing Html file
+        in the text editor in which we want to move . Now, place the cursor at the starting of that
+        section which we want to link. Now, place the cursor at the starting of that text which we want to create as a link.
+
+Que 13.  What is the use of an iframe tag?
+Ans.     The <iframe>…</iframe> tag is used to contain the video within the iFrame.
+         The iFrame source (src) is the origin of the content from the external or internal server.
+         Don’t forget to put the embedded code in the URL.Width and height is the aspect ratio of the iFrame.
+         You can insert a fixed sizes such as 680×480 pixels (px) as in the example. Or, you can use a percentage (10%-100%)
+         based method to adjust the iFrame automatically.
+
+Que 14.  What is the use of a span tag? Explain with example?
+Ans.     The <span> tag is an inline container used to mark up a part of a text, or a part of a document.
+
+Que 15.  How to insert a picture into a background image of a web page? 
+Ans.     Set a background image using the HTML body element Add the bgproperties="fixed" code into the body 
+         element, as shown below. Next, add the background="location" attribute to the body tag, where location 
+         is the relative or absolute URL of the image. <body background="bg.gif" bgcolor="#000000" bgproperties="fixed">
+
+Que 16.  How are active links different from normal links?
+Ans.     An active link is that line of code in action, opening that other resource.    
+         A normal link is line of code that contains a pointer to another resource. 
+
+Que 17. What are the different tags to separate sections of text? 
+Ans.    The <br> tag is one way to separate the lines of text. There are other tags like the <p> tag and <blockquote> tag that are also used to separate sections of text.
+
+Que 18.  What is SVG?
+Ans.    Scalable Vector Graphics (SVG) is an XML-based vector image format for two-dimensional graphics with support for interactivity and animation. 
+        The SVG specification is an open standard developed by the World Wide Web Consortium (W3C) since 1999.
+
+Que 19.  What is difference between HTML and XHTML? 
+Ans.     HTML.    Hypertext Markup Language. HTML is a hypertext and markup programming language used to create web pages. 
+         Nest Tags are not used in HTML.HTML doesn’t have a case sensitivity nature hence the codes can either be written in uppercase or lowercase.
+         Error in HTML can be easily rectified. HTML is used to create web pages, game development, and internet navigations.
+ 
+         XHTML.    Extensible Hypertext Markup Language. XHTML is a hypertext and markup language derived from HTML that is used to create websites and applications.
+         Nest Tags are used in XHTML. XHTML can be case-sensitive; hence, only lower case is used. Error in XHTML is not easily rectifiable.
+         XHTML is used to create excellent and well-structured web pages.
+
+Que 20. What are logical and physical tags in HTML? 
+Ans.    Physical tags are used to indicate exactly how specific characters are to be formatted. Logical tags are
+        used to indicate to the visually impaired that there is some emphasizes on the text.
+
+
+
+
+
+
+

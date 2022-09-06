@@ -1,0 +1,125 @@
+Que 1.  What are the benefits of using CSS?
+Ans.    CSS handles the look and feel part of a web page. Using CSS, you can control the color of the text,
+        the style of fonts, the spacing between paragraphs, how columns are sized and laid out.
+
+Que 2.  What are the disadvantages of CSS?
+Ans.    Disadvantages of CSS: CSS, CSS 1 up to CSS3, result in creating of confusion among web browsers.
+        With CSS, what works with one browser might not always work with another. The web developers need to test for
+        compatibility, running the program across multiple browsers. There exists a scarcity of security.
+
+Que 3.  What is the difference between CSS2 and CSS3? 
+Ans.   The biggest difference between CSS2 and CSS3 is that CSS3 has been split into different sections, called modules. 
+       Each of these modules is making its way through the W3C in various stages of the recommendation process. This process
+       has made it much easier for various pieces of CSS3 to be accepted and implemented in the browser by different manufacturers.
+       If you compare this process to what happened with CSS2, where everything was submitted as a single document with all the
+       Cascading Style Sheets information within it, you begin to see the advantages of breaking the recommendation up into smaller, 
+       individual pieces. Because each of the modules is being worked on individually, developers enjoy a much wider range of browser 
+       support for CSS3 modules.
+
+Que 4. Name a few CSS style components?
+Ans.   CSS COMPONENTS
+       1.Header
+       2.Content
+       3.Footer
+       4.Buttons
+       5.List
+       6.Cards
+       7.Forms
+       8.Toggle
+       9.Checkbox
+       10.Radio Buttons
+       11.Range
+       12.Select
+       13.Tabs
+       14.Grid
+       15.Utility
+
+Que 5.  What do you understand by CSS opacity?
+Ans.    When using the opacity property to add transparency to the background of an element, all of its child elements become transparent as well. 
+        This can make the text inside a fully transparent element hard to read. If you do not want to apply opacity to child elements, use RGBA color values instead.
+
+Que 6.  How can the background color of an element be changed? 
+Ans.    We can change the background color of an HTML element using the background-color CSS property and giving it a value of a color. 
+        With this code, the paragraphs are given a pink background. For example, this code will make all paragraph elements in your HTML file 
+        have a pink background because the background-color property has a value of pink.
+
+Que 7.  How can image repetition of the backup be controlled? 
+Ans.    Background-repetition property controls the repetition of images in the background. Use no-repeat if the image is to be displayed once in the background.
+
+Que 8. What is the use of the background-position property? 
+Ans.   The background-position property sets the starting position of a background image. By default, a background-image is placed at the
+       top-left corner of an element, and repeated both vertically and horizontally.
+
+Que 9.  Which property controls the image scroll in the background? 
+Ans.    Background-attachment property controls the image scrool in the background.
+
+Que 10.  Why should background and color be used as separate properties? 
+Ans.     Answer: This is done with mainly two purposes: It makes the style sheets more legible. Background property, 
+         which is complex in itself, becomes all the more complex with color. Color is an in-built property while the background is not one.
+
+Que 11.  How to center block elements using CSS1? 
+Ans.     Step 1: Define the external width – We need to define the external width. Block-level elements have the default width of 
+         100% of the webpage, so for centering the block element, we need space around it. So for generating the space, we are giving it a width.
+         Step 2: Set the left-margin and the right-margin of the element to auto – Since we produced a remaining space by providing external 
+         width so now we need to align that space properly that’s why we should use margin property. Margin is a property that tells how to align 
+         a remaining space. So for centering the element you must set left-margin to auto and right-margin to auto.
+
+Que 12.  How to maintain the CSS specifications?
+Ans.     Keep styles of components (pages, layouts) in isolation all the time. Keep the same name across the javascript file name, component name,
+         style file name, and style class name. These simple rules will make your system effectively maintain and scale.ns
+
+Que 13.  What are the ways to integrate CSS as a web page?
+Ans.     There are three ways to integrate CSS as a web page
+         1.External CSS. With an external style sheet, you can change the look of an entire website by changing just one file.
+         2.Internal CSS. An internal style sheet may be used if one single HTML page has a unique style.
+         3.Inline CSS. An inline style may be used to apply a unique style for a single element. To use inline styles, add the style attribute to the relevant element.
+
+Que 14.  What is embedded style sheets?
+Ans.      Embedded style sheets allow you to define styles for the whole HTML document in one place. Embedded style sheets refer 
+          to when you embed style sheet information into an HTML document using the <style> element.
+
+Que 15.  What are the external style sheets? 
+Ans.     An external style sheet is a separate text file with .css extension. You define all the Style rules within this text file like (notepad, WordPad, Emacs).
+
+Que 16. What are the advantages and disadvantages of using external style sheets?
+Ans.    Advantages
+
+        1) The style of a few documents can be controlled from the site by utilizing them.
+	2) Multiple HTML elements can have numerous documents, where classes can be made.
+	3) To assemble styles in complex circumstances, selector and grouping strategies are utilized.
+
+	Disadvantages
+
+	1) The additional download is expected to import documents having style information.
+	2) To render the documents, the outer template ought to be stacked.
+	3) Not practical for small style definitions.
+
+Que 17.  What is the meaning of the CSS selector? 
+Ans.   	 A CSS selector is the part of a CSS style call that identifies what part of the web page should be styled. 
+         The selector contains one or more properties that define how the selected HTML Featured Video The CSS Selectors
+         There are several different types of selectors: type selectors – matching a specific element.
+
+Que 18.  What are the media types allowed by CSS? 
+Ans.     This are the media types which are allpowed by CSS.
+	 1.all
+	 2.braille	
+         3.embossed	
+         4.handheld	
+	 5.print	
+	 6.projection
+ 	 7.screen
+	 8.speech
+	 9.tty	
+	 10.tv
+
+Que 19.  What is the rule set? 
+Ans.      A CSS rule-set consists of a selector and a declaration block: The selector points to the HTML element you want to style.
+          The declaration block contains one or more declarations separated by semicolons.
+
+Que 20.  Create Layouts 
+Ans.	 This is an Practicle example.
+         please refer to the file.
+
+
+
+
