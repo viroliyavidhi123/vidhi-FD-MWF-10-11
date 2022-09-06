@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>form-valid</title>
+</head>
+<body>
+    <form method="get" id="form">
+        name: <input type="text" id="name">
+        password: <input type="password" id="password">
+        <button type="submit">
+            sunmit
+        </button>
+
+    </form>
+</body>
+<script>
+    const name=document.getElementById('name')
+    const password=document.getElementById('password')
+    const form=document.getElementById('form')
+
+    addEventListener('submit', (e)=>{
+        if(name.value === '' || name.value==null)
+        {
+            alert("name is required")
+        }
+        if(password.value.length < 5)
+        {
+            alert("value is too small plz fill strong pwd")
+        }
+        e.PreventDefault()
+    })
+</script>
+</html>

@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>replace</title>
+</head>
+<body>
+    <ul id="demo">
+        <li>apple</li>
+        <li>banana</li>
+        <li>chikoo</li>
+        <li>mango</li>
+        <li>orange</li>
+    </ul>
+    <button onclick="btn()">click hear</button>
+</body>
+<script>
+    function btn(){
+    var new_ele=document.createElement("li")
+    var new_txt=document.createTextNode("lichi")
+    var new_txt=document.createTextNode("lichi")
+    new_ele.appendChild(new_txt)
+    var result=document.getElementById('demo')
+
+    var old_ele=result.children[3]
+    var old_ele=result.children[2]
+    result.replaceChild(new_ele,old_ele)
+}
+</script>
+</html>

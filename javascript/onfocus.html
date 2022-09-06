@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <label>name</label>
+    <input type="text" onfocus="f(this)"><br>
+<br>
+    <label>surname</label>
+    <input type="text" onfocus="f(this)"><br><br>
+    
+    <label>Country</label>
+    <select onfocus="f(this)">
+        <option>India</option>
+        <option>Palistan</option>
+        <option>chaina</option>
+        <option>UK</option>
+    </select>
+</body>
+<script>
+    function f(element)
+    {
+        element.style.background="yellow";
+    }
+</script>
+</html>
