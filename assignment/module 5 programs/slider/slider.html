@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <style>
+        .container{
+            width: 580px;
+            margin: 40px auto;
+            overflow: auto;
+        }
+        .inner img{
+            height: 500px;
+            width: 500px;
+            display: none;
+        }
+        .inner .active  {
+            display: inline-block;
+            
+        }
+    </style>
+    <title>slide</title>
+</head>
+<body>
+    <div class="container">
+        <div class="inner">
+            <img src="diu.png" class="active" >
+            <img src="dwarka.png" >
+            <img src="girnarhill.png">
+            <img src="girpark.png">
+        </div>
+
+        <button class="prev">previous</button>
+        <button class="next">next</button>
+        
+    </div>
+    
+</body>
+<script>
+
+
+$(document).ready(function(){
+    $(".next").click(function(){
+        var currentimg=$(".active");
+        var nextimg = currentimg.next();
+
+        if(nextimg.length){
+            currentimg.removeClass("active")
+            nextimg.addClass("active")
+        }
+    });
+
+    $(".prev").click(function(){
+        var currentimg=$(".active");
+        var previmg = currentimg.prev();
+
+        if(previmg.length){
+            currentimg.removeClass("active")
+            previmg.addClass("active")
+        }
+    })
+});
+
+</script>
+</html>
