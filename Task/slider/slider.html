@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>slider</title>
+</head>
+<body>
+    
+    <img class="i1" src="1.png" height="400px"; width="500px" >
+    <img class="i1" src="2.png" height="400px"; width="500px" >
+    <img class="i1" src="3.jpg" height="400px"; width="500px" >
+    <img class="i1" src="4.png" height="400px"; width="500px" >
+    <img class="i1" src="5.png" height="400px"; width="500px" >
+    <img class="i1" src="6.png" height="400px"; width="500px" >
+</body>
+<script>
+    counter=0;
+
+    function slider(){
+        vr = document.getElementsByClassName('i1')
+        for( var i=0; i<vr.length; i++)
+        {
+            // vr[i]=.style.display="none";
+            vr[i].style.display="none";
+        }
+
+        if(counter == vr.length )
+        {
+            counter=0;
+        }
+    
+        vr[counter].style.display="block";
+        counter++
+        setTimeout(slider,2000);
+    }
+    slider();
+</script>
+</html>
